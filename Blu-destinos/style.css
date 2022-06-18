@@ -46,6 +46,10 @@ main{
     margin: 0 auto;
 }
 
+#lista-destinos{
+    text-align: center;
+}
+
 #lista-destinos ul{
     list-style: none;
 }
