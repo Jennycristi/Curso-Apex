@@ -59,7 +59,7 @@ header{
 
 header nav{
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 10%;
 }
 
@@ -253,6 +253,58 @@ footer{
     text-align: right;
     font-size: 11px;
     color: #919496;
+}
+
+header nav img{
+    border-radius: 50%;
+    vertical-align: middle;
+    height: 42px;
+    margin: auto 10px;
+}
+
+header nav span{
+    color: white;
+
+}
+
+header nav svg{
+    fill: white;
+    height: 12px;
+
+}
+
+#dropdown-button{
+    cursor: pointer;
+}
+
+#profile-dropdown{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: white;
+    min-width: 160px;
+    border-radius: 2px;
+    box-shadow: 0 8px 16px 0 rgba(#000, #000, #000, 0.2);
+    display: none;
+}
+
+#profile-dropdown li{
+    display: block;
+    color: #919496;
+    padding: 12px 0;
+    margin-left: 16px;
+}
+
+#profile-dropdown a:first-of-type li{
+    color: black;
+}
+
+#profile-dropdown a li:hover{
+    color: #1ED760 ;
+}
+
+.show{
+    display: block!important;
 }
 
 
